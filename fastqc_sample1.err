@@ -1,0 +1,10 @@
+Value "reads.sample1.fastq.gz" invalid for option threads (number expected)
+Exception in thread "main" java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at java.desktop/java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:208)
+	at java.desktop/java.awt.Window.<init>(Window.java:548)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:423)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:388)
+	at java.desktop/javax.swing.JFrame.<init>(JFrame.java:180)
+	at uk.ac.babraham.FastQC.FastQCApplication.<init>(FastQCApplication.java:63)
+	at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:338)
